@@ -1,0 +1,6 @@
+*.pyc
+__pycache__
+vn_vkl
+db.sqlite3
+/static
+.DS_Store
