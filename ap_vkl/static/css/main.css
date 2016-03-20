@@ -1,0 +1,88 @@
+/*********************************************
+WATS1020, Winter 2016
+SUNNY YUEN
+Final Project
+*********************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans: 300, 400, 800');
+
+body {
+	background-image: url('../img/gplaypattern.png');
+    background-color: #ededed;
+	font-family: 'Open Sans', sans-serif;
+	color: #999;
+}
+
+header {
+	margin-top: 6rem;
+}
+
+hr {
+	border: 0;
+    height: 0;
+	border-bottom: 1px solid rgba(37, 183, 196, .2);
+}
+
+.page-header {
+	border-bottom-color: rgba(37, 183, 196, .2);
+}
+
+input[type="text"], input[type="email"]	{
+  background: transparent;	
+  padding: .5rem 0;
+  margin: 1rem 0;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  width: 100%;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {	
+  outline: none;
+}
+
+input[type="text"]:hover, input[type="email"]:hover {
+  color: #999;
+  transition: border 0.3s;	
+  border-bottom: solid 2px #999;	
+}
+
+input[type="text"]:hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #999;	
+}
+
+section {
+	padding-bottom: 2rem;
+}
+
+h1, h2, h3, h4 {
+	color: #25b7c4;
+	font-weight: 800;
+}
+
+.brand {
+	font-size: 5rem;
+	font-weight: 300;
+	letter-spacing: 1.5rem;
+	color: #25b7c4;
+}
+
+footer {
+	margin: 6rem 0 3rem 0;
+}
+
+#map {
+	height: 37.5rem;
+}
+
+.mapboxgl-popup {
+	max-width: 30rem;	
+}
+
+.marker-title {
+	font-weight: 800;
+}
+
+.alert {
+ 	display: none;
+	margin: 2rem 1rem 0 1rem;
+}
